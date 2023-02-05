@@ -1,0 +1,232 @@
+/*imported roboto font family from google font*/
+@import url('//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*color variables start*/
+:root {
+    --theme-color: #151749;
+    --on-theme-color: #ffffff;
+    --secondary-color: #CE0F46;
+    --on-secondary-color: #ffffff;
+    --cancel-color: #ed282c;
+    --on-cancel-color: #ffffff;
+    --hover-color: #ce0f46;
+    --on-hover-color: #ffffff;
+    --border-color: #999999;
+    --white: #ffffff;
+}
+
+/*color variables end*/
+
+/*common style start*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body a {
+    color: var(--secondary-color);
+}
+
+body a:hover {
+    color: var(--theme-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+p,
+span,
+b,
+strong,
+div {
+    font-family: 'Roboto', sans-serif;
+}
+
+label.label-form {
+    color: var(--theme-color);
+}
+
+.section-padding {
+    padding-top: 50px;
+}
+
+.section-title h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    display: block;
+    color: var(--theme-color);
+    font-size: 22px;
+    line-height: 33px;
+    text-transform: capitalize;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*common style end*/
+
+/*login page start*/
+.login-wrapper {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.login-form-wrapper {
+    padding: 50px 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form-wrapper .logo {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.login-form-wrapper .logo img {
+    min-width: 280px;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.login-header h3 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: var(--theme-color);
+    text-transform: capitalize;
+}
+
+.login-header p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #B5B5C3;
+}
+
+.user-form-wrapper form label {
+    font-size: 1.7rem;
+    color: var(--theme-color);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.user-form-wrapper form .form-control {
+    background-color: #F3F6F9;
+    border: none;
+    /* padding: 30px 15px; */
+    padding: auto 15px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 1.7rem;
+}
+
+.user-form-wrapper form .form-control::placeholder {
+    color: #B5B5C3;
+    opacity: 1;
+    /* Firefox */
+}
+
+.user-form-wrapper form .form-control:-ms-input-placeholder {
+    color: #B5B5C3;
+}
+
+.user-form-wrapper form .form-control::-ms-input-placeholder {
+    color: #B5B5C3;
+}
+
+.user-form-wrapper div.plw {
+    display: flex;
+}
+
+.user-form-wrapper div.plw a {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+button.user-btn {
+    border: none;
+    color: var(--on-theme-color);
+    background-color: var(--theme-color);
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+button.user-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--on-secondary-color);
+}
+
+.user-footer {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.user-footer .social-links ul li {
+    display: inline-block;
+}
+
+.user-footer .social-links ul li a {
+    display: block;
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+.user-footer .social-links ul li a:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.user-footer p {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--primary-color);
+}
+
+.user-footer p a {
+    color: var(--primary-color);
+}
+
+.user-footer p a:hover {
+    color: var(--secondary-color);
+}
+
+.login-thumb-wrapper h2 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-top: 90px;
+}
+
+/*login page end*/
