@@ -221,6 +221,12 @@ button.user-btn:hover {
     color: var(--secondary-color);
 }
 
+.login-thumb-wrapper{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center top; */
+}
+
 .login-thumb-wrapper h2 {
     text-align: center;
     font-size: 5rem;
@@ -229,4 +235,9 @@ button.user-btn:hover {
     margin-top: 90px;
 }
 
+.two-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
 /*login page end*/

@@ -2,10 +2,37 @@
 @media only screen and (min-width: 992px) and (max-width: 1200px){}
 
 /*Tablet Layout: 768px*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .login-wrapper {
+        display: initial;
+    }
+    .login-form-wrapper {
+        max-width: 600px;
+        padding: 50px 10px;
+    }
+    
+    .login-thumb-wrapper {
+        display: none;
+    }
+}
 
 /*Mobile Layout: 320px*/
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    .login-wrapper {
+        display: initial;
+    }
+    
+    .login-form-wrapper {
+        padding: 50px 10px;
+    }
+    
+    .login-thumb-wrapper {
+        display: none;
+    }
+    .two-grid{
+        display: initial;
+    }
+}
 
 /*Wide Mobile Layout: 480px*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
